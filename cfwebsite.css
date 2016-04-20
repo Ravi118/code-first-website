@@ -1,7 +1,9 @@
   header {
+      color: white;
       text-align: center;
-
-      background: url("https://pixabay.com/static/uploads/photo/2015/06/08/15/19/sunglasses-802001_960_720.jpg");
-      background-size: cover;
-      color: black;
     }
+
+  header img {
+  	height: 100%;
+  	width: 100%;
+  }
