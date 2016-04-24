@@ -229,6 +229,8 @@ h4 {
     font-size: 200px;
   }
 
+       h3{center}
+
   .footer-distributed {
     font: bold 14px sans-serif;
   }
@@ -269,6 +271,7 @@ h4 {
   .footer-distributed{
     padding: 30px;
   }
+
 
   .footer-distributed .footer-left,
   .footer-distributed .footer-right{
