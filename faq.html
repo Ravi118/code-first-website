@@ -78,35 +78,49 @@
 
 
 
-
-        
 <div class="container">
   <div class='jumbotron'>
     <div class="row">
-      <p><strong><i>Submit your own outfit and you could be Threads famous! Every month we'll pick someone who has submitted the best outfit to be rewarded with clothing vouchers!</p>
-         <p1>Enter your name</strong></i></p1>
+      <p><strong><i>Submit your own outfit and you could be Threads famous! Every month we'll pick someone who has submitted the best outfit to be rewarded with clothing vouchers!</i></strong></p>
+
+           <p1>Enter your name</p1>
+
+            <form action="#" method="post">
+
+            <input type="text" name="email" placeholder="Name" />
+          <br>
+          <br>
+     <p1>Enter your email address</p1>
+     <br>
           <form action="#" method="post">
-          <input type="text" name="email" placeholder="Name" />
-        <br>
-        <br>
-       <p1>Enter your email address</p1>
-        <br>
-        <form action="#" method="post">
-        <input type="text" name="email" placeholder="Email" />
-        <br>
-        <br>
-         <p1>Industry</p1>
-        <br>
+          <input type="text" name="email" placeholder="Email" />
+          <br>
+          <br>
+
+<p1>Upload your photo</p1>
+<input type="file" id="myFile">
+<script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+}
+</script>
+<br>
+          <p1>Industry</p1>
+          <br>
           <form action="#" method="post">
+
           <input type="text" name="email" placeholder="Insert message" />
           <br>
           <br>
-        <p1>Upload a picture</p1>
-        <button>Upload</button>
-        <br>
-    </form>
-    <br>
-    <button>Submit</button>
+  
+
+<button onclick="myFunction()">Submit</button>
+<script>
+function myFunction() {
+    alert("Thanks for your message!");
+}
+</script>
 </div>
 </div>
 </div>
