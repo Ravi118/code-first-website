@@ -31,14 +31,42 @@ header h1 {
   font-size: 18px;
 }
 
+h1 {
+text-align: center;
+  }
+
+
+h2 {
+    text-align: center;
+  }
+
+h3 {
+  color: black;
+  font-size: 16px
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
 h4 {
     color: black;
     text-align: center;
   }
 
-h2 {
-    text-align: center;
-  }
+p {
+  text-align: center;
+}
+
+a {
+    color: rgba(243, 126, 11, 1);
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+}
 
 /* Navigation bar
 -------------------------------------------------- */
@@ -87,6 +115,8 @@ h2 {
     background-color: #f7da00;
 }
 
+@media 
+
 /* submit button on contact form */
 
 .form-group button {
@@ -114,7 +144,7 @@ h2 {
   text-align: left;
 
   padding: 50px 60px 40px;
-  margin-top: 80px;
+  margin-top: 0px;
   overflow: hidden;
 }
 
@@ -150,12 +180,13 @@ h2 {
 }
 
 #social-buttons button {
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: rgba(247, 218, 0, 1);
   color: rgba(41, 99, 2, 1);
   box-shadow: none;
   outline: none;
   width: 100px;
+  border: 0;
 }
 
 .footer-distributed .footer-icons a{
