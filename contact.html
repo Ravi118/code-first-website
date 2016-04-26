@@ -39,56 +39,71 @@
 <div class="container">
   <div class='jumbotron'>
     <div class="row">
+    <div class="row">
       <p><strong><i>Submit your own outfit and you could be Threads famous! Every month we'll pick someone who has submitted the best outfit to be rewarded with clothing vouchers!</strong></i></p>
 
-          
-    <p1>Enter your name</p1>
-
-            <form action="#" method="post">
-
-            <input type="text" name="email" placeholder="Name" />
-          <br>
-          <br>
-     <p1>Enter your email address</p1>
-     <br>
-          <form action="#" method="post">
-          <input type="text" name="email" placeholder="Email" />
-          <br>
-          <br>
-
-<p1>Upload your photo</p1>
-<input type="file" id="myFile">
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+    <form method="post">
+     <div class="form-group ">
+      <label class="control-label " for="name">
+       Name
+      </label>
+      <input class="form-control" id="name" name="name" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label requiredField" for="email">
+       Email
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+      <input class="form-control" id="email" name="email" type="text"/>
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="Industry">
+       Industry
+      </label>
+      <input class="form-control" id="Industry" name="Industry" type="text"/>
+     </div>
+     <div class="form-group ">
+    <label class="control-label">Upload your photo</label>
+<input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true">
+     </div>
+     <div class="form-group ">
+      <label class="control-label " for="message">
+       Message
+      </label>
+      <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+     </div>
+     <div class="form-group">
+      <div>
+       <button class="btn btn-custom btn-lg" name="submit" type="submit" onclick="myFunction()">Submit</button>
 <script>
 function myFunction() {
-    var x = document.getElementById("myFile");
-    x.disabled = true;
+    alert("Thanks for submitting to Threads!");
 }
 </script>
-<br>
-          <p1>Industry</p1>
-          <br>
-          <form action="#" method="post">
-
-          <input type="text" name="email" placeholder="Insert message" />
-          <br>
-          <br>
-  
-
-<button onclick="myFunction()">Submit</button>
-<script>
-function myFunction() {
-    alert("Thanks for your message!");
-}
-</script>
+       </button>
+      </div>
+     </div>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
 
 
-
-      
-    </div>
   </div> <!-- jumbotron -->
 </div> <!-- container -->
+</div>
+</div>
 
-<div class="footer-distributed">
+<div>
+
+ <div class="footer-distributed">
 
             <div class="footer-left">
 
