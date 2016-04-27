@@ -70,7 +70,7 @@ a:-webkit-any-link {
 
 
 a:hover, a:active {
-  color: rgba(247, 218, 0);
+  color: rgba(247, 218, 0, 1);
 }
 
 a:link, a:visited {
@@ -206,6 +206,7 @@ a:link, a:visited {
   outline: none;
   width: 100px;
   border: 0;
+  margin-bottom: 5px;
 }
 
 .footer-distributed .footer-icons a{
