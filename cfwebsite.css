@@ -72,6 +72,10 @@ a:hover, a:active {
   color: rgba(243, 126, 11, 1);
 }
 
+a:link, a:visited {
+    color: rgba(243, 126, 11, 1);
+}
+
 .submit {
   border-radius: 3px;
   background-color: rgba(247, 218, 0, 1);
