@@ -70,11 +70,11 @@ a:-webkit-any-link {
 
 
 a:hover, a:active {
-  color: rgba(247, 218, 0, 1);
+  color: rgba(247, 218, 0);
 }
 
 a:link, a:visited {
-    color: rgba(243, 126, 11, 1);
+  color: rgba(243, 126, 11, 1);
 }
 
 .submit {
