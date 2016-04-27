@@ -66,8 +66,22 @@ a:-webkit-any-link {
     color: -webkit-link;
     text-decoration: none;
     cursor: auto;
+  }
+
+a:hover, a:active {
+  color: rgba(243, 126, 11, 1);
 }
 
+.submit {
+  border-radius: 3px;
+  background-color: rgba(247, 218, 0, 1);
+  color: rgba(41, 99, 2, 1);
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: left;
+}
+}
 /* Navigation bar
 -------------------------------------------------- */
 #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -277,7 +291,7 @@ a:-webkit-any-link {
   margin-bottom: 20px;
 }
 
-.footer-distributed form button{
+.footer-distributed form button {
   border-radius: 3px;
   background-color: rgba(247, 218, 0, 1);
   color: rgba(41, 99, 2, 1);
