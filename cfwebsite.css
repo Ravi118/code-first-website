@@ -68,6 +68,10 @@ a:-webkit-any-link {
     cursor: auto;
   }
 
+a:link {
+    color: black;
+}
+
 a:hover, a:active {
   color: rgba(243, 126, 11, 1);
 }
